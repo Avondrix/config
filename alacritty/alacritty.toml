@@ -8,7 +8,7 @@ startup_mode = "Maximized"
 [font]
 size = 16
 normal = { family = "JetBrainsMono Nerd Font" }
-offset = { y = 1, x = 0 }
+offset = { y = 3, x = 0 }
 
 [env]
 TERM = "xterm-256color"
@@ -26,10 +26,11 @@ mods = "Shift"
 [[keyboard.bindings]]
 chars = "\u001B[13;5u"
 key = "Return"
-mods = "Control"
+mods = "Command|Shift"
 
+# tmux prefix key
 [[keyboard.bindings]]
 chars = "\u0002"
 key = "A"
-mods = "Alt"
+mods = "Command"
 # string = "\u{02}"  # Ctrl + b (0x02 in hexadecimal)

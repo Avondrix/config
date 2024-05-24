@@ -1,0 +1,13 @@
+*
+*/
+!nvim/
+!nvim/**
+!tmux/
+!tmux/**
+!alacritty/
+!alacritty/**
+!.clang-tidy
+!.clang-format
+!.gitignore
+!.gitmodules
+

@@ -33,4 +33,4 @@ mods = "Command|Shift"
 chars = "\u0002"
 key = "A"
 mods = "Command"
-# string = "\u{02}"  # Ctrl + b (0x02 in hexadecimal)
+# string = "\u{0
